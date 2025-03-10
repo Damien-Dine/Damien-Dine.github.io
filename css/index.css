@@ -5,26 +5,31 @@ body {
     color: #ffffff;
 }
 
-menu {
+.menu {
     display: flex;
     justify-content: space-between;
     padding: 1em;
 }
 
-menu > a {
+.menu > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-menu > a:hover {
+.menu > a:hover {
     color: #ff0000;
 }
 
-menu > a:active {
+.menu > a:active {
     color: #ff0000;
 }
 
-menu > li {
+.menu > li {
     list-style-type: none;
     padding: 0.5em;
+}
+
+.unilasalle-logo {
+    width: 100px;
+    height: 100px;
 }
