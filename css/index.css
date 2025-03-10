@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+menu > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+menu > a:hover {
+    color: #ff0000;
+}
+
+menu > a:active {
+    color: #ff0000;
+}
+
+menu > li {
+    list-style-type: none;
+    padding: 0.5em;
+}
